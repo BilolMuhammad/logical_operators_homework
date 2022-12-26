@@ -8,7 +8,7 @@ def main(a, b, c):
     Returns:
         bool: answer
     """
-    return a < b < c
+    return a > b > c
 
 
-print(main(1, 4, 6))
+print(main(9, 7, 6))
