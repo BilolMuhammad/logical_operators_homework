@@ -11,4 +11,4 @@ def main(a, b, c):
     return a < b < c
 
 
-print(main(5, 4, 6))
+print(main(1, 4, 6))
