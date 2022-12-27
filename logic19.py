@@ -8,4 +8,7 @@ def main(x):
     Returns:
         bool: answer
     """
-    return
+    return x >= 10 and x <= 999
+
+
+print(main(343))
