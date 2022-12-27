@@ -6,4 +6,9 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    x = a // 10
+    y = a % 10
+    return a >= 10 and a <= 99 and (x+y) % 2 != 0
+
+
+print(main(39))
