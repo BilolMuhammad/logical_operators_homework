@@ -6,4 +6,11 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    b = a % 100
+    x = a // 100
+    y = b // 10
+    z = b % 10
+    return a >= 100 and a <= 999 and (x+y+z) % 2 != 0
+
+
+print(main(124))
