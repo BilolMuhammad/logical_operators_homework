@@ -17,10 +17,8 @@ def main(a):
     x4 = a % 10
     a //= 10
     x5 = a % 10
-    if x1 > x2 and x2 > x3 and x3 > x4 and x4 > x5:
-        return True
-    else:
-        return False
+    ans = x1 > x2 and x2 > x3 and x3 > x4 and x4 > x5:
+    return ans
 
 
-print(main(96789))
+print(main(36789))
